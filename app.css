@@ -30,3 +30,24 @@ img {
   max-width: 65rem;
   margin: auto;
 }
+
+.row {
+  margin: 5rem;
+}
+
+.profile {
+  border: .05em black solid;
+  overflow: auto;
+}
+
+.profile-screenname {
+color: #494949;
+}
+
+.profile_img {
+  float: left;
+}
+
+.repo_language-name {
+  float: right;
+}
