@@ -4,6 +4,9 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+
+  /*border: red 2px solid !important;*/
+  /*padding: 4px !important;*/
 }
 
 body {
@@ -71,6 +74,10 @@ ul.nav-group {
   border: .05em black solid;
   overflow: auto;
 }
+.top-box {
+  margin: 1rem;
+  overflow: auto;
+}
 
 .profile-screenname {
 color: #494949;
@@ -80,15 +87,20 @@ color: #494949;
   float: left;
 }
 
-.repos {
-  float: left;
-  margin: 1rem;
+.repo {
+  overflow: auto;
 }
 
-.repo_language-dot {
-  float:right;
-  margin: 1rem;
+.repo_left {
+  float: left;
+}
 
+.repo_right {
+  float: right;
+}
+
+.repo {
+  padding: 1rem;
 }
 
 .fa-circle {
