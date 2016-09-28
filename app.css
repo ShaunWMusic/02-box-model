@@ -1,0 +1,26 @@
+.profile {
+  background: blue;
+  padding: 4rem;
+}
+
+.profile_img {
+  float: left;
+  background: green;
+
+}
+
+.profile-name {
+  background: red;
+}
+
+.profile-screenname {
+  background: yellow;
+}
+
+.repos {
+  background: orange;
+}
+
+.list_of_repos {
+  background: purple;
+}
