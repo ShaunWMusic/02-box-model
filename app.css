@@ -30,7 +30,35 @@ img {
   max-width: 65rem;
   margin: auto;
 }
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+}
 
+.nav-group {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.nav-group a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul.nav-group {
+  display: flex;
+  margin: 1rem -0.5rem;
+}
+
+.nav-group__item {
+  margin: 0 0.5rem;
+
+  opacity: 0.6;
+}
+
+.nav-group__item:hover {
+  opacity: 1;
+}
 .row {
   margin: 5rem;
 }
