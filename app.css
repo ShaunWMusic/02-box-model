@@ -1,25 +1,36 @@
+body {
+margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 65rem;
+  border: 1em black solid;
+  padding: 0.5em green solid;
+}
+
 .profile {
-  background: blue;
-  padding: 4rem;
+  border: .05em black solid;
 }
 
 .profile_img {
   float: left;
-  background: green;
 }
 
 .profile-name {
-  background: red;
+  overflow: auto;
+  margin: 0;
 }
 
 .profile-screenname {
-  background: yellow;
+  overflow: auto;
 }
 
 .repos {
-  background: orange;
 }
 
 .list_of_repos {
-  background: purple;
 }
