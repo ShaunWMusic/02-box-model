@@ -1,36 +1,32 @@
-body {
-margin: 0;
-}
-
-* {
+html {
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 65rem;
-  border: 1em black solid;
-  padding: 0.5em green solid;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
-.profile {
-  border: .05em black solid;
-}
-
-.profile_img {
-  float: left;
-}
-
-.profile-name {
-  overflow: auto;
+body {
   margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
 }
 
-.profile-screenname {
-  overflow: auto;
+ul {
+  padding-left: 0;
+  list-style: none;
 }
 
-.repos {
+h1, h2, h3, h4 {
+  font-weight: 300;
 }
 
-.list_of_repos {
+img {
+  max-width: 100%;
+}
+
+.hero__container, .section__container {
+  width: 100%;
+  max-width: 65rem;
+  margin: auto;
 }
