@@ -28,34 +28,29 @@ img {
   max-width: 100%;
 }
 
-.hero {
-  background: #2aa3a3;
+a {
+  text-decoration: none;
 }
 
-.hero__container, .section__container {
+.nav-bar {
+  background: #2aa3a3;
+  margin: auto;
   width: 100%;
-  max-width: 65rem;
-  margin: auto;
-}
-.nav-flex {
-  margin: auto;
-  width: 95%;
   overflow: auto;
-  display: inline-block;
 }
 
 .nav-group {
   font-size: 1.2rem;
-  margin: 1rem 0;
+  margin: 1rem 6rem;
   width: 13%;
+  float: left;
 }
 
 .nav-links {
+  margin: 1rem 6rem;
   color: inherit;
-  text-decoration: none;
   width: 13%;
   float: right;
-
 }
 
 
@@ -65,7 +60,7 @@ ul.nav-group {
 
 .nav-group__item {
   margin: 0 0.5rem;
-
+  float: right;
   opacity: 0.6;
 }
 
