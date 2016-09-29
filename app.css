@@ -34,6 +34,7 @@ a {
 
 .nav-bar {
   background: #2aa3a3;
+  padding-top: 2rem;
   margin: auto;
   width: 100%;
   overflow: auto;
@@ -44,6 +45,7 @@ a {
   margin: 1rem 6rem;
   width: 13%;
   float: left;
+  overflow: auto;
 }
 
 .nav-links {
@@ -62,6 +64,10 @@ ul.nav-group {
   margin: 0 0.5rem;
   float: right;
   opacity: 0.6;
+}
+
+.nav-group__item a {
+  color: black;
 }
 
 .nav-group__item:hover {
