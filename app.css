@@ -72,6 +72,7 @@ ul.nav-group {
 
 .profile {
   border: .05em black solid;
+  border-radius: 5%;
   overflow: auto;
 }
 .top-box {
@@ -85,10 +86,17 @@ color: #494949;
 
 .profile_img {
   float: left;
+  margin-right: 1rem;
+  border-radius: 10%;
 }
 
 .repo {
   overflow: auto;
+  padding: 0 1rem;
+}
+
+.repo-list {
+  padding: 0 1rem;
 }
 
 .repo_left {
@@ -99,9 +107,6 @@ color: #494949;
   float: right;
 }
 
-.repo {
-  padding: 1rem;
-}
 
 .fa-circle {
   color: #9c1010;
