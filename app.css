@@ -69,11 +69,17 @@ ul.nav-group {
 .row {
   margin: 5rem;
 }
+.row__column-2-3 {
+  margin: 1rem;
+
+}
 
 .profile {
   border: .05em black solid;
   border-radius: 5%;
   overflow: auto;
+  max-width: 20rem;
+  min-width: 20rem;
 }
 .top-box {
   margin: 1rem;
