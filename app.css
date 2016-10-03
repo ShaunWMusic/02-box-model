@@ -91,6 +91,7 @@ ul.nav-group {
   margin: 0;
   border: .05rem black solid;
   overflow: auto;
+  padding: 1rem;
 }
 
 .profile-screenname {
