@@ -34,7 +34,7 @@ a {
 
 .nav-bar {
   background: #2aa3a3;
-  padding-top: 2rem;
+  padding: 1rem;
   margin: auto;
   width: 100%;
   overflow: auto;
@@ -42,16 +42,12 @@ a {
 
 .nav-group {
   font-size: 1.2rem;
-  margin: 1rem 6rem;
-  width: 13%;
   float: left;
   overflow: auto;
 }
 
 .nav-links {
-  margin: 1rem 6rem;
   color: inherit;
-  width: 13%;
   float: right;
 }
 
@@ -79,7 +75,7 @@ ul.nav-group {
 }
 .row__column-1-3 {
   margin: 1rem;
-width: calc( 100% / 3 - 1rem - 1rem );
+  width: calc( 100% / 3 - 1rem - 1rem );
 }
 .row__column-2-3 {
   margin: 1rem;
@@ -88,12 +84,12 @@ width: calc( 100% / 3 - 1rem - 1rem );
 
 .profile {
   float: left;
-  border: .05em black solid;
-  border-radius: 5%;
   overflow: auto;
+  min-width: 18rem;
 }
 .top-box {
-  margin: 1rem;
+  margin: 0;
+  border: .05rem black solid;
   overflow: auto;
 }
 
@@ -109,11 +105,13 @@ color: #494949;
 
 .repo {
   overflow: auto;
-  padding: 0 1rem;
+  padding: 0 .5rem;
+  border: .05rem black solid;
 }
 
 .repo-list {
-  padding: 0 1rem;
+  padding: 0;
+  margin: 0;
   font-size: .8rem;
 }
 
