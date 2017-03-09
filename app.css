@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+
+  /*border: red 2px solid !important;*/
+  /*padding: 4px !important;*/
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  background: #2aa3a3;
+  padding: 1rem;
+  margin: auto;
+  width: 100%;
+  overflow: auto;
+}
+
+.nav-group {
+  font-size: 1.2rem;
+  float: left;
+  overflow: auto;
+}
+
+.nav-links {
+  color: inherit;
+  float: right;
+}
+
+
+ul.nav-group {
+  margin: 1rem -0.5rem;
+}
+
+.nav-group__item {
+  margin: 0 0.5rem;
+  float: right;
+  opacity: 0.6;
+}
+
+.nav-group__item a {
+  color: black;
+}
+
+.nav-group__item:hover {
+  opacity: 1;
+}
+.row {
+  margin: 5rem;
+  overflow: auto;
+}
+.row__column-1-3 {
+  margin: 1rem;
+  width: calc( 100% / 3 - 1rem - 1rem );
+}
+.row__column-2-3 {
+  margin: 1rem;
+  width: calc( 100% / 3 - 1rem - 1rem );
+}
+
+.profile {
+  float: left;
+  overflow: auto;
+  min-width: 18rem;
+}
+.top-box {
+  margin: 0;
+  border: .05rem black solid;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.profile-screenname {
+color: #494949;
+}
+
+.profile_img {
+  float: left;
+  margin-right: 1rem;
+  border-radius: 10%;
+  width: 5rem;
+}
+
+.repo {
+  overflow: auto;
+  padding: 0 .5rem;
+  border: .05rem black solid;
+}
+
+.repo-list {
+  padding: 0;
+  margin: 0;
+  font-size: .8rem;
+}
+
+.repo_left {
+  float: left;
+}
+
+.repo_right {
+  float: right;
+}
+
+
+.fa-circle {
+  color: #9c1010;
+}
